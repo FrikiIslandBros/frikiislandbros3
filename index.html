@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrikiIslandBros</title>
+    <script src="https://kit.fontawesome.com/b623688e2e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/producto.css">
+</head>
+
+<body>
+    <div id="contenedor_carga">
+        <div id="carga"></div>
+    </div>
+    <header>
+        <div class="header__login">
+            <div class="social">
+                <a target="_blank" href=""><i class="fa-brands fa-facebook logo1"></i></a>
+                <a target="_blank" href="https://www.instagram.com/friki_island_bros_store/?hl=es-la"><i
+                        class="fa-brands fa-instagram logo2"></i></a>
+                <a target="_blank" href=""><i class="fa-brands fa-youtube logo3"></i></a>
+                <a target="_blank" href=""><i class="fa-brands fa-twitter logo4"></i></a>
+            </div>
+            <div>
+                <a href="" class="cuenta"><i class="fa-solid fa-question user"></i>AYUDA</a>
+                <a href="registro.html" class="cuenta"><i class="fa-solid fa-user user"></i>MI CUENTA</a>
+            </div>
+        </div>
+        <div class="header__superior">
+            <div class="logo">
+                <img src="./img/letratiendalogo.png" alt="">
+            </div>
+            <div class="socia">
+            </div>
+            <div class="search">
+                <input type="search" name="" id="inputSearch" placeholder="¿Que desea buscar?">
+                <div class="search-box">
+                    <ul class="list" id="resultado">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container__menu">
+            <div class="menu">
+                <input type="checkbox" name="" id="check__menu">
+                <label id="label__check" for="check__menu">
+                    <i class="fa-solid fa-bars icon__menu"></i>
+                </label>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" id="selected">
+                                <i class="fa-solid fa-house"></i>
+                            </a></li>
+                        <li><a href="#">Cuadros</a>
+                            <ul>
+                                <li><a href="index.html">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Accesorios</a>
+                            <ul>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Vestimenta</a>
+                            <ul>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Figuras</a>
+                            <ul>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Funko pop!</a>
+                            <ul>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                                <li><a href="#">Opcion</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="sectionBanner">
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <picture>
+                        <source media="(min-width: 720px)" srcset="./img/banner/bannerAnime.jpg">
+                        <img src="./img/banner/Anime.jpg" alt="">
+                    </picture>
+                    <section class="flex-caption">
+                    </section>
+                </li>
+                <li>
+                    <picture>
+                        <source media="(min-width: 720px)" srcset="./img/banner/bannerMarvel.jpg">
+                        <img src="./img/banner/Marvel.jpg" alt="">
+                    </picture>
+                    <section class="flex-caption">
+                    </section>
+                </li>
+                <li>
+                    <picture>
+                        <source media="(min-width: 720px)" srcset="./img/banner/bannerPokemon.jpg">
+                        <img src="./img/banner/Pokemon.jpg" alt="">
+                    </picture>
+                    <section class="flex-caption">
+                    </section>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="sectionDestacados">
+        <div class="Des">
+            <h1>Productos destacados</h1>
+
+        </div>
+        
+        <div>
+
+        </div>
+    </section>
+
+    <script src="./js/stickyMenu.js"></script>
+    <script src="./js/search.js"></script>
+    <script src="./js/jquery.flexslider-min.js"></script>
+    <script src="./js/jquery.flexslider.js"></script>
+    <script src="./js/productos.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+const productos = [
+    { nombre: 'Pack de 10 Pokémon', valor: 450 },
+    { nombre: 'Llaveros de goma Fairy Tail', valor: 350 },
+    { nombre: 'Funko pop! - Jack Skellington', valor: 1200 },
+    { nombre: 'Pack de 2 collares de Tokyo Ghoul', valor: 300 },
+    { nombre: 'Llavero del Barcelona!', valor: 250 },
+    { nombre: 'Llavero de metal de Nanatsu no Taizai/ The Seven Deadly Sins', valor: 200 },
+    { nombre: 'Pines metálicos edición limitada de Junji Ito - 1', valor: 290 },
+    { nombre: 'Pines metálicos edición limitada de Junji Ito - 2', valor: 290 },
+    { nombre: 'Pines metálicos edición limitada de Junji Ito - 3', valor: 290 },
+    { nombre: 'Pines metálicos edición limitada de Junji Ito - 4', valor: 290 },
+    { nombre: 'Pines metálicos edición limitada de Junji Ito - 5', valor: 290 },
+    { nombre: 'Pines metálicos edición limitada de Junji Ito - 6', valor: 290 },
+    { nombre: 'Pines metálicos edición limitada de Junji Ito - 7', valor: 290 },
+    { nombre: 'Pines metálicos edición limitada de Junji Ito - 8', valor: 290 },
+    { nombre: 'Llaveros de Tokyo Revengers ', valor: 500 },
+    { nombre: 'fairy tail', valor: 500 },
+]

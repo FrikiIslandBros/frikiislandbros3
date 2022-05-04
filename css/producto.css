@@ -1,0 +1,26 @@
+.posts {
+    margin: 10px;
+    border-style: solid;
+    padding: 10px 20px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hr {
+    margin: 10px;
+}
+
+.titulo {
+    padding: 5px;
+}
+
+.imgPost{
+    
+    width: 200px;
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
